@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"ef2b779cbfe89510","type":"text","text":"Oracle Database","x":-140,"y":-420,"width":195,"height":60,"color":"6"},
+		{"id":"c19a8f8b005521f6","type":"text","text":"Database","x":305,"y":-160,"width":145,"height":60,"color":"2"},
+		{"id":"6a4991e384dbdc39","type":"text","text":"Instances","x":-490,"y":-161,"width":145,"height":60,"color":"5"},
+		{"id":"ad53b88a737f45c8","type":"text","text":"Processes","x":-725,"y":42,"width":136,"height":57,"color":"6"},
+		{"id":"c8ab977cde9347f1","type":"text","text":"Memory Structures","x":-245,"y":42,"width":148,"height":57,"color":"1"},
+		{"id":"af6c1eaa72539523","type":"text","text":"SGA","x":-401,"y":199,"width":112,"height":50},
+		{"id":"29e9d0851f17fbed","type":"text","text":"PGA","x":-57,"y":199,"width":112,"height":50},
+		{"id":"2b25ffc002d388ba","type":"text","text":"- Data files \n- Redo log files \n- Archived Redo log files \n- Control files \n- Parameter files \n- Password File \n- Backup files \n- Trace files \n- Alert log files","x":243,"y":20,"width":270,"height":300,"color":"3"},
+		{"id":"4b6e24aedb4eed67","type":"text","text":"- PMON \n- SMON \n- DBWn\n- Ckpt \n- LGWR\n- ARCn\n- ","x":-757,"y":199,"width":200,"height":328,"color":"3"},
+		{"id":"ad13e84faf780d84","type":"text","text":"- [[Data Buffer Cache]] \n- [[Shared Pool]]\n- [[Redo Log Buffer]] \n- [[Large Pool]] \n- [[Java Pool]] \n- [[Streams Pool]] ","x":-480,"y":348,"width":270,"height":212,"color":"3"}
+	],
+	"edges":[
+		{"id":"93df933cc6a59a57","fromNode":"ef2b779cbfe89510","fromSide":"bottom","toNode":"c19a8f8b005521f6","toSide":"top"},
+		{"id":"775a5952e0c411fe","fromNode":"ef2b779cbfe89510","fromSide":"bottom","toNode":"6a4991e384dbdc39","toSide":"top"},
+		{"id":"a99a830ca5629d00","fromNode":"6a4991e384dbdc39","fromSide":"bottom","toNode":"ad53b88a737f45c8","toSide":"top"},
+		{"id":"b573a569ea446c5b","fromNode":"6a4991e384dbdc39","fromSide":"bottom","toNode":"c8ab977cde9347f1","toSide":"top"},
+		{"id":"4b9474f2c2494e25","fromNode":"c8ab977cde9347f1","fromSide":"bottom","toNode":"af6c1eaa72539523","toSide":"top"},
+		{"id":"52c868bdad30f463","fromNode":"c8ab977cde9347f1","fromSide":"bottom","toNode":"29e9d0851f17fbed","toSide":"top"},
+		{"id":"f802c38f87cd263b","fromNode":"c19a8f8b005521f6","fromSide":"bottom","toNode":"2b25ffc002d388ba","toSide":"top"},
+		{"id":"0fd85d7a3d7edf52","fromNode":"ad53b88a737f45c8","fromSide":"bottom","toNode":"4b6e24aedb4eed67","toSide":"top"},
+		{"id":"037948d37b5376f2","fromNode":"af6c1eaa72539523","fromSide":"bottom","toNode":"ad13e84faf780d84","toSide":"top"}
+	]
+}
