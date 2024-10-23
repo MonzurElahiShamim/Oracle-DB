@@ -51,13 +51,13 @@ SQL> !cat preupgrade.log
 
 ---
 
-![[recommended_preupgrade_actions.png]]
+![recommended_preupgrade_actions.png](../Attachments/recommended_preupgrade_actions.png)
 
 To [Update memory_target parameter](Update%20memory_target%20parameter.md) follow this link.
 
 ---
 
-![[required_tablespace_allocations.png]]
+![required_tablespace_allocations.png](../Attachments/required_tablespace_allocations.png)
 
 ```sql
 SQL> select file_name from dba_data_files;
