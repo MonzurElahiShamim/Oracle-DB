@@ -156,7 +156,7 @@ Refer to the note: [[Running Installer Using MobaXterm]].
 6. **Operating System Group**: Click "Next".
 7. **Prerequisite Check**: Address any warnings, especially related to soft checks or missing libraries.
 8. **Install Product**: During this step, you will be prompted to run scripts as the `root` user.
-![[Oracle DB installation root script.png]]
+![[Oracle_DB_installation_root_script.png]]
 
 ## Database Creation
 

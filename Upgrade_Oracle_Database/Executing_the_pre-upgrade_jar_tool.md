@@ -1,6 +1,6 @@
 ---
-updated_at: 2024-10-22T11:41:06.590+06:00
-edited_seconds: 190
+updated_at: 2024-10-23T20:10:51.664+06:00
+edited_seconds: 230
 ---
 ## Executing the pre-upgrade jar tool
 
@@ -51,13 +51,13 @@ SQL> !cat preupgrade.log
 
 ---
 
-![[recommended preupgrade actions.png]]
+![[recommended_preupgrade_actions.png]]
 
-To [[Update memory_target parameter]] follow this link.
+To [Update memory_target parameter](Update%20memory_target%20parameter.md) follow this link.
 
 ---
 
-![[required tablespace allocations.png]]
+![[required_tablespace_allocations.png]]
 
 ```sql
 SQL> select file_name from dba_data_files;

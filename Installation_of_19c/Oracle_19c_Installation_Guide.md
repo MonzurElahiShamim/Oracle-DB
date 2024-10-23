@@ -1,6 +1,6 @@
 ---
-updated_at: 2024-10-22T11:22:15.624+06:00
-edited_seconds: 1190
+updated_at: 2024-10-23T20:07:52.830+06:00
+edited_seconds: 1200
 ---
 
 # Oracle 19c Installation Guide

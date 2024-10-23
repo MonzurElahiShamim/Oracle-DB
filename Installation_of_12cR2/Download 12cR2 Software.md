@@ -10,11 +10,11 @@ edited_seconds: 30
 3. After Logging in, search for: `Oracle Database 12c Enterprise Edition 2`.After searching the DLP name, you will see a list and from that list click your desired DLP name. You will see a notification that “Added to download queue”
 	![[download dlp.png]]
 4. At the top right corner beneath the “Signout” you will see “view/continue”, click the **continue**.
-	![[Continue download dlp.png]]
+	![[Continue_download_dlp.png]]
 5. Select `Linux x86-64` under Platform/Languages:
-	![[Select OS for DLP.png]]
+	![[Select_OS_for_DLP.png]]
 6. After selecting the OS, click `Continue`. 
 7. You will see “Oracle Standard Terms and Restrictions”, Click the checkbox and click `Continue`.
 8. Click on the Database file (`V839960-01.zip`) and it will start downloading.
-	![[Download Database File.png]]
+	![[Download_Database_File.png]]
 

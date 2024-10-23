@@ -1,6 +1,6 @@
 ---
-updated_at: 2024-10-22T20:27:31.649+06:00
-edited_seconds: 4440
+updated_at: 2024-10-23T20:07:28.441+06:00
+edited_seconds: 4490
 ---
 
 # Oracle 12c to 19c manual upgrade steps
@@ -22,7 +22,6 @@ oracle   31997 17316  0 15:00 pts/3    00:00:00 /bin/bash -c ps -ef | grep pmon
 oracle   31999 31997  0 15:00 pts/3    00:00:00 grep pmon
 ```
 
-![[environment details.png]]
 
 ## Prerequisites 
 
@@ -44,7 +43,7 @@ export CLASSPATH=$ORACLE_HOME/JRE:$ORACLE_HOME/jlib:$ORACLE_HOME/rdbms/jlib
 
 ## Install 19c with latest patches
 
-> Follow this note: [[Oracle 19c Installation Guide]]
+> Follow this note: [[Oracle_19c_Installation_Guide]]
 
 - After installation confirm software version : `sqlplus -v`
 - Confirm 12c is up and running: `ps -ef | grep pmon`
@@ -54,13 +53,13 @@ export CLASSPATH=$ORACLE_HOME/JRE:$ORACLE_HOME/jlib:$ORACLE_HOME/rdbms/jlib
 
 ## Executing the pre-upgrade jar tool
 
- > Follow this note:  [[Executing the pre-upgrade jar tool]]
+ > Follow this note:  [Executing_the_pre-upgrade_jar_tool](Executing_the_pre-upgrade_jar_tool.md)
  
 ---
 ---
 ## Backing up the database / Create a guaranteed restore point
 
-> Follow this note: [[Backing up the database (Create a guaranteed restore point)]]
+> Follow this note: [Backing_up_the_database](Backing_up_the_database.md)
 
 ---
 ---
